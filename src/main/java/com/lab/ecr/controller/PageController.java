@@ -16,7 +16,7 @@ public class PageController {
 
     @GetMapping("/about")
     public String about(Model model) {
-        model.addAttribute("info", "This app is a lab to demonstrate how to dockerize and push spring apps to ECS.");
+        model.addAttribute("info", "This app is a lab to demonstrate how to dockerized and push spring apps to ECS.");
         return "about";
     }
 }
