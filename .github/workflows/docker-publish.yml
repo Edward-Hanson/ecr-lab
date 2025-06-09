@@ -43,4 +43,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: public.ecr.aws/e4x1d4e8/edwardhansonmensah_ecr:latest
+          tags: ppublic.ecr.aws/e4x1d4e8/edwardhansonmensah_ecr:latest
+          load: false
+          cache-from: type=local,src=/dev/null
+          cache-to: type=inline
